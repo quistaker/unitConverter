@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="top-container">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" id="input"><br>
+            <button id="convertBtn">Convert</button>
+        </div>
+
+        <div class="container">
+            <h2>Length (Meter/Feet)</h2>
+            <p>
+                <span class="convertNum">20</span> meters = <span id="toFeet">65.616</span> feet | 
+                <span class="convertNum">20</span> feet = <span id="toMeters">6.096</span> meters
+            </p>
+        </div>
+        
+        <div class="container">
+            <h2>Volume (Liters/Gallons)</h2>
+            <p>
+                <span class="convertNum">20</span> liters = <span id="toGallons">5.284</span> gallons | 
+                <span class="convertNum">20</span> gallons = <span id="toLiters">75.708</span> liters
+            </p>
+        </div>
+            
+        <div class="container">
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p>
+                <span class="convertNum">20</span> kilos = <span id="toPounds">44.092</span> pounds | 
+                <span class="convertNum">20</span> pounds = <span id="toKilos">9.072</span> kilos
+            </p>
+        </div>
+           
+
+        <script src="index.js"></script>
+    </body>
+</html>
